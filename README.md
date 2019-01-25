@@ -86,7 +86,7 @@ $ touch github_notes.md
 
 ## 5.4 Collaborator continue adding changes
 
-1. git remote add upstream <url>, to link to main repo
+1. git remote add upstream (url), to link to main repo
 2. git fetch upstream, creates a new branch for incoming data and pulls
 3. git merge upstream/master, merge local changes with incoming data
 4. git log -- merges. This shows the changes made after merging with the owner's master. This also shows the message that was posted ![](assets/merge_history.png)
