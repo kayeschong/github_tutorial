@@ -83,7 +83,7 @@ $ touch github_notes.md
 
 ## 6.3 Owner accepting changes
 
-1. Check for pull requests from other people
+1. Check for pull requests from other people, either from website or command line (can see intructions on website)
 2. Checkout to their branch, pull and view the changes
 3. After confirming edits, checkout back to master and merge change
 
