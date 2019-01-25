@@ -55,5 +55,11 @@ $ touch github_notes.md
 ## 4.3 Owner accepting changes
 
 1. Check for pull requests from other people
-2. Checkout to their branch, pull and view the changes (TBC)
+2. Checkout to their branch, pull and view the changes
 3. After confirming edits, checkout back to master and merge changes
+
+## 4.4 Collaborator continue adding changes
+
+1. git remote add upstream <url>, to link to main repo
+2. git fetch upstream, creates a new branch for incoming data and pulls
+3. git merge upstream/master, merge local changes with incoming data
