@@ -38,7 +38,9 @@ $ touch github_notes.md
    $ git clone <url>
    ```
 
-# 4. Add, Push Commit 
+# 4. Branching
+
+# 5. Add, Push Commit 
 
 1. Once the folder has been edited (Example:Edit a file, add a file etc.). This adds all files 
 
@@ -64,27 +66,43 @@ $ touch github_notes.md
    $ git push origin master 
    ```
 
-# 5. Collaborating on GitHub 
+# 6. Collaborating on GitHub 
 
-## 5.1 Becoming a collaborator 
+## 6.1 Becoming a collaborator 
 
 1. The owner adds you as a collaborator. On the owner's side, repository-> Settings-> Collaborators-> Add collaborators  
 2. On the collaborator side, once accepted, git clone the repository and pull from the repository 
 3. Subsequently, make the changes and push to github 
 
-## 5.2 Public perspective: Forking 
+## 6.2 Public perspective: Forking 
 
-1. Fork the Repo from the owner's repository
-![](assets/fork_image.png) 
-2. Git clone the repository. We do not have to create a folder and then git clone in there. This means that if I have a notes folder, I want github_tutorial to be the subfolder. I do not have to create a folder called github_tutorial and clone in there as doing so will create a github_tutorial folder in the github_tutorial folder. Hence, just clone it in the notes folder 
+1. Useful Link: https://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267
+2. Fork the Repo from the owner's repository
+  ![](assets/fork_image.png) 
+3. Git clone the repository. We do not have to create a folder and then git clone in there. This means that if I have a notes folder, I want github_tutorial to be the subfolder. I do not have to create a folder called github_tutorial and clone in there as doing so will create a github_tutorial folder in the github_tutorial folder. Hence, just clone it in the notes folder 
 
-## 5.3 Owner accepting changes
+## 6.3 Owner accepting changes
 
 1. Check for pull requests from other people
 2. Checkout to their branch, pull and view the changes
-3. After confirming edits, checkout back to master and merge changes
+3. After confirming edits, checkout back to master and merge change
 
-## 5.4 Collaborator continue adding changes
+## 6.4 Resolving merge conflicts
+
+1. Useful Links: https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
+
+2. Show the image of github merge conflict 
+
+3. Follow the GitHub Command line commands 
+
+   ```
+   $
+   $
+   ```
+
+4. Show the image of command line merge conflict![](assets/)
+
+## 6.5 Collaborator continue adding changes
 
 1. git remote add upstream (url), to link to main repo
 2. git fetch upstream, creates a new branch for incoming data and pulls
