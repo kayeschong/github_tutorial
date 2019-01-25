@@ -28,11 +28,13 @@ $ git init
 $ touch github_notes.md
 ```
 
-# 3. Link the local repository to GitHub
+# 3. Link the local repository to GitHub (Owner)
 
-1. Get the URL from GitHub Copy the URL from "Clone or Download"
+1. Useful Link: https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 
-2. Link it in command line
+2. Get the URL from GitHub Copy the URL from "Clone or Download"
+
+3. Link it in command line
 
    ```
    $ git clone <url>
