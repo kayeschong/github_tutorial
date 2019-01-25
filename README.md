@@ -48,5 +48,12 @@ $ touch github_notes.md
 
 ## 4.2 Public perspective: Forking 
 
-1. Fork the Repo from the owner's repository 
+1. Fork the Repo from the owner's repository
+![](assets/fork_image.png) 
 2. Git clone the repository. We do not have to create a folder and then git clone in there. This means that if I have a notes folder, I want github_tutorial to be the subfolder. I do not have to create a folder called github_tutorial and clone in there as doing so will create a github_tutorial folder in the github_tutorial folder. Hence, just clone it in the notes folder 
+
+## 4.3 Owner accepting changes
+
+1. Check for pull requests from other people
+2. Checkout to their branch, pull and view the changes (TBC)
+3. After confirming edits, checkout back to master and merge changes
