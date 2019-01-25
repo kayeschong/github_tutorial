@@ -38,7 +38,33 @@ $ touch github_notes.md
    $ git clone <url>
    ```
 
-# 4. Collaborating on GitHub 
+# 4. Add, Push Commit 
+
+1. Once the folder has been edited (Example:Edit a file, add a file etc.). This adds all files 
+
+   ```
+   $ git add -A
+   ```
+
+2. Next we want to preview the files that have been changed. At this point, it shows the files that have yet to be committed 
+
+   ```
+   $ git status
+   ```
+
+3. Then we want to commit the changes 
+
+   ```
+   $ git commit -m "First Commit"
+   ```
+
+4. Lastly we want to push 
+
+   ```
+   $ git push origin master 
+   ```
+
+# 5. Collaborating on GitHub 
 
 ## 4.1 Becoming a collaborator 
 
